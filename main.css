@@ -1,12 +1,16 @@
 body {
-    background-color: rgb(253, 0, 0);
+    background-color: rgb(114, 114, 114);
     padding: 0px;
     margin: 0px;
+    
+}
+h1 {
+    font-family: Geneva, Verdana, sans-serif;
 }
 .nav {
     text-align: center;
     padding: 20px;
-    background-color: rgb(165, 165, 165);
+    background-color: rgb(114, 114, 114);
 }
 ul {
 }
@@ -15,9 +19,20 @@ ul {
     font-size: 26px;
     font-family: Arial, Helvetica, sans-serif;
     padding-right: 10px;
+    color: #ffffff;
 }
 .content {
+    background-image: url(images/sunset-cartoon.jpg);
+    background-repeat: no-repeat;
+    height: 900px;
+    background-size: cover;
+    background-position: center;
+}
+.content-text {
     text-align: center;
     padding-top: 90px;
     font-size: 20px;
+    color: #ffffff;
+    
+    
 }
